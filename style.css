@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 860px;
+    flex-wrap: wrap;
+}
+
+.container h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+    color: aqua;
+}
+
+.container p {
+    color: black;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.block {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        height: 100%;
+        width: 420px;
+    }
+}
